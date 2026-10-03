@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "id": "example-bug",
+      "category": "bugfix",
+      "repo": ".",
+      "commit": "HEAD",
+      "prompt": "Fix the failing test in test/example.test.js without changing the test.",
+      "oracle": "npm test --silent",
+      "timeoutSec": 900
+    }
+  ]
+}

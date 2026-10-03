@@ -1,0 +1,13 @@
+{
+  "name": "crazy-dev",
+  "version": "0.1.0",
+  "description": "Context and token efficiency harness for Claude Code",
+  "type": "module",
+  "author": "Crazynotdev",
+  "license": "MIT",
+  "bin": { "crazy": "bin/crazy.mjs" },
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "test": "node --disable-warning=ExperimentalWarning --test tests/*.test.mjs"
+  }
+}

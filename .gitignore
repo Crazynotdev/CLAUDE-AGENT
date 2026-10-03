@@ -1,0 +1,5 @@
+node_modules/
+.crazy/store.db*
+.crazy/raw/
+.crazy/current.json
+.crazy/runtime/
